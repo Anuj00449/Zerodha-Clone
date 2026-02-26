@@ -33,7 +33,7 @@ const BuyActionWindow = ({ uid}) => {
 
     try {
       await axios.post(
-        "http://localhost:8080/buy",
+        "https://zerodha-clone-1-backend.onrender.com/buy",
         {
           name: uid,
           qty: Number(stockQuantity),
