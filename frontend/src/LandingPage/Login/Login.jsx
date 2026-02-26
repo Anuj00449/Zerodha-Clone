@@ -19,7 +19,7 @@ function Login() {
     setError("");
 
     axios
-      .post("http://localhost:8080/login", formData)
+      .post("https://zerodha-clone-1-backend.onrender.com/login", formData)
       .then((response) => {
         const token = response.data.token;
         window.location.href = ` http://localhost:5173/?token=${token}`;
