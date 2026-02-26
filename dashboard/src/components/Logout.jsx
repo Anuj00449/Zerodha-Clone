@@ -7,7 +7,7 @@ function Logout() {
     localStorage.removeItem("token"); 
     sessionStorage.removeItem("hasRefreshed");
     alert("Logout successful");
-    window.location.href = "http://localhost:5174"; 
+    window.location.href = "https://zerodha-clone-2-frontend.onrender.com"; 
   };
 
   return (
